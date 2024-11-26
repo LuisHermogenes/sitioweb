@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Luis Hermógenes Guanuco">
+        <meta name="description" content="Información de contacto">
+        <meta name="keywords" content="HTML5,CSS3">
+        <link rel="stylesheet" type="text/css" href="../css/form.css">
+    </head>
+    <body>
+        <section>
+            <form action="" method="POST">
+		<fieldset>
+            <legend>Ingreso de datos:</legend>
+			<label for="Nombre">Nombre</label>
+			<input type="text" id="nombre" name="nombre" required/>
+            <br>
+            <br>
+			<label for="Apellido">Apellido:</label>
+			<input type="text" id="apellido" name="apellido" required/>
+			<br>
+            <br>
+            <label form="Email">Email:</label>
+            <input type="email" id="email" name="mail" placeholder="ejemplo@mail.com" required/>
+            <br>
+            <br>
+			<label for="fecha de nacimiento">fecha de nacimiento:</label>
+			<input type="date" id="nacimiento" name="nacimiento" required/>
+            <br>
+            <br>
+			<label for="dni">DNI:</label>
+			<input type="text" id="dni" name="dni" required/>
+			<br><br>
+            <textarea name="textarea" rows=10 cols="30">Mensaje:</textarea>
+            <br>
+			<input type="submit" value="enviar">
+		</fieldset>
+	</form>
+        </section>
+    </body>
+</html>

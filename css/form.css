@@ -1,0 +1,46 @@
+
+h2{
+    background-color:coral;
+    color:azure;
+    padding:10px;
+    border-radius:20px;
+}
+
+p{
+    font-family:sans-serif;
+}
+label{
+    line-height: 4px;
+}
+input,textarea{
+    width:40%;
+    padding=10px;
+    outline:none;
+}
+input[type="text"]{
+    border:2px solid blue;
+    border-radius:4px;
+}
+input[type="submit"]{
+    padding:5px;
+    font-family:monospace;
+    font-weight:bold;
+}
+
+section{
+  border-radius: 6px 6px 6px 6px;
+    border: solid 1px #ccc;
+    width: 740px;
+    background: #c9f59f;
+    padding-left: 20px;
+}
+
+
+tbody {
+   border-top: 1px solid #669900;
+   border-bottom: 1px solid #669900;
+}
+
+th{
+  border-bottom: 1px solid #669900;
+}
